@@ -1,0 +1,7 @@
+.request_btn {
+  border: 1px solid black;
+  /* border: none; */
+  border-radius: 2px;
+  color: white;
+  background-color: #6bd098;
+}

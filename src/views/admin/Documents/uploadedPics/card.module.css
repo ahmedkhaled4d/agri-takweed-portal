@@ -1,0 +1,9 @@
+.cardTitle{
+  margin-top: 10px;
+}
+.request_btn {
+  border: 1px solid black;
+  border-radius: 2px;
+  color: white;
+  background-color: #6bd098;
+}

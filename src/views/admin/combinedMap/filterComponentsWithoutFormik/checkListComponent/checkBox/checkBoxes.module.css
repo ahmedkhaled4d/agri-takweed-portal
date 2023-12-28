@@ -1,0 +1,14 @@
+.checkbox_label {
+    padding-right: 10px;
+    width: 100%;
+    transition: 0.2s;
+}
+
+.checkbox_label:hover {
+    background-color: #5c5c5c;
+    cursor: pointer;
+}
+
+.checkbox_input {
+    margin-left: 5px;
+}

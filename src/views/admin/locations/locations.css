@@ -1,0 +1,16 @@
+.linkStyle {
+  display: contents;
+}
+.addForm {
+  font-size: 12px !important;
+}
+
+.locationsSearchDataInput {
+  display: inline-block;
+  width: 30%;
+  padding: 0.7em 0;
+  border: 1px solid black !important;
+}
+.disableLink{
+  pointer-events:none;
+}

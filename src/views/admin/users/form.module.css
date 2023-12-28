@@ -1,0 +1,18 @@
+.error{
+    color: red;
+}
+.messageCardBody{
+    height: 400px ;
+    overflow: auto;
+}
+.userCardBody{
+    min-height: 305px !important;
+}
+.messageCardHeader{
+   display: flex;
+   justify-content: space-around;
+}
+.inputBorder{
+    border: 1px solid var(--mainColor) !important;;
+}
+

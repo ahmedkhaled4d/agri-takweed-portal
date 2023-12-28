@@ -1,0 +1,51 @@
+.combinedMap_list_button {
+  display: block;
+  padding: 0.2em 0.5em;
+  background-color: blue;
+  border: 2px solid white;
+  color: white !important;
+}
+
+.googleTable_table {
+  /* border: 3px solid black !important; */
+  border-collapse: collapse !important;
+  top: 220px !important;
+}
+
+.googleTable_td {
+  font-size: 1rem;
+  padding: 0.27em 0.5em;
+  border: 1px solid black !important;
+}
+
+/* .googleTable_td_title {
+} */
+
+.googleTable_tr:hover {
+  background-color: #f39c12;
+  color: white;
+  /* font-weight: 500; */
+}
+
+.googleTable_tr {
+  border: 1px solid black !important;
+}
+
+.formSubmitBtn {
+  background-color: #f39c12;
+  margin: auto;
+}
+
+.mimicTable {
+  display: table;
+}
+.mimicTr {
+  display: table-row;
+}
+.mimicTd {
+  display: table-cell;
+  font-size: 1rem;
+  padding: 0.27em 0.5em;
+  border: 1px solid black !important;
+  text-align: center;
+}

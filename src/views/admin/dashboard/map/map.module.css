@@ -1,0 +1,21 @@
+.backendFilter {
+  width: fit-content;
+  display: block;
+  /* background-color: 'red' !important; */
+}
+
+/* .backendFilter_crops {
+}
+.backendFilter_crops {
+} */
+
+.inputmap {
+  margin-top: 0.8em;
+  width: fit-content;
+  display: block;
+  padding: 1.2em 1.5em;
+  border-radius: 5%;
+  font-weight: 900;
+  /* margin-top: 0; */
+  /* margin-bottom: 0.3em; */
+}

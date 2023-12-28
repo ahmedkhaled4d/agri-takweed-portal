@@ -1,0 +1,35 @@
+.searchBoxContainer {
+  display: flex;
+  align-items: center;
+  /* border: 1px solid #f39c12; */
+  border: none;
+  background-color: white;
+  border-radius: 4px;
+  padding: 5px;
+  margin: 0;
+}
+.searchBoxContainer input,
+.searchBoxContainer input:focus {
+  border: none !important;
+  text-align: right;
+}
+.checkBoxListContainer {
+  background: red;
+}
+
+.checkboxListContainer {
+  background-color: white;
+  position: absolute;
+  padding: 0.5em;
+  z-index: 99;
+  width: 100%;
+  user-select: none;
+  max-height: 23em;
+  overflow: auto;
+}
+.checkboxListItem {
+  display: flex !important;
+}
+.checkboxListItem input {
+  margin-left: 1em;
+}

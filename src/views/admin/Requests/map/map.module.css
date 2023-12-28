@@ -1,0 +1,105 @@
+#legend {
+  font-family: Arial, sans-serif;
+  background: #fff;
+  padding: 10px;
+  margin: 10px;
+  border: 3px solid #000;
+}
+
+#legend h3 {
+  margin-top: 0;
+  margin-bottom: 0.3em;
+}
+#legend p {
+  margin-top: 0;
+}
+
+#legend img {
+  vertical-align: middle;
+}
+
+.googleTable_table {
+  /* border: 3px solid black !important; */
+  border-collapse: collapse !important;
+  top: 220px !important;
+  /* margin-top: 2em !important; */
+}
+
+.googleTable_table_legandOnly {
+  margin-top: 2em !important;
+}
+
+.googleTable_td {
+  padding: 0.27em 0.5em;
+  border: 1px solid black !important;
+  direction: ltr;
+}
+
+/* .googleTable_td_title {
+} */
+
+.googleTable_tr:hover {
+  background-color: #f39c12;
+  color: white;
+  /* font-weight: 500; */
+}
+
+.googleTable_tr {
+  border: 1px solid black !important;
+  font-size: 1rem;
+}
+
+.googleTable_th {
+  border: 1px solid black !important;
+  font-size: 1.1rem;
+}
+
+.googleTable_th_custom {
+  padding: 0.27em 0.5em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.btn {
+  padding: 0.5em 0em;
+  width: 7em;
+  margin-right: 0.8em;
+  border: 2px solid rgb(57, 56, 56);
+  background-color: white;
+  font-size: 0.8rem;
+}
+
+.btn_edit {
+  margin-top: 1em;
+}
+
+.weather_btn {
+  top: 0 !important;
+  left: 18% !important;
+  width: fit-content !important;
+  padding: 1em;
+  font-weight: bolder;
+}
+.estimate_btn {
+  margin-left: 8em;
+}
+
+.whatsAppBtn {
+  display: inline;
+  border: none;
+  border-radius: 20px;
+  margin-left: 1em;
+  padding: 1em;
+  font-size: 1.3 rem;
+  border: 1px solid black;
+  position: relative;
+  transition: 0.25s all;
+  z-index: 10;
+}
+.whatsAppBtn i {
+  font-size: 1.2rem;
+}
+.whatsAppBtn:hover {
+  background-color: #f39c12;
+  color: white;
+}

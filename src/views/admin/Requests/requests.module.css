@@ -1,0 +1,36 @@
+.request_btn {
+  border: 1px solid black;
+  /* border: none; */
+  border-radius: 2px;
+  color: white;
+  background-color: #6bd098;
+}
+.delete_btn {
+  background-color: red !important;
+  opacity: 0.8;
+}
+.delete_btn:hover:active {
+  opacity: 1;
+  background-color: red !important;
+}
+
+.estimateEditBtn {
+  background-color: #51cbce !important;
+  color: white !important;
+}
+.estimationTableInput,
+.estimationTableInputDisabled {
+  background-color: transparent !important;
+  border-color: #28a745 !important;
+  margin: 0.5em 0;
+}
+
+.estimationTableInputDisabled {
+  border: none !important;
+  cursor: default !important;
+}
+.footprintInputBorder {
+  border: 1px solid var(--mainColor) !important;
+  width: 50%;
+  padding: 0.5em;
+}

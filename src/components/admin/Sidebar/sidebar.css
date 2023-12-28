@@ -1,0 +1,4 @@
+.removeUnderlineAdminSidebar:after {
+  /* height: 0 !important; */
+  content: none !important;
+}

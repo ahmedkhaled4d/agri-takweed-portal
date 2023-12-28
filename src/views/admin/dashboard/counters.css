@@ -1,0 +1,46 @@
+.card-category.font-weight-bold {
+  font-size: 0.8rem !important;
+  word-wrap: initial;
+}
+
+/* @media (min-width: 576px) {
+  .dashboard-counters {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .dashboard-counters {
+    width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  .dashboard-counters {
+    width: 90%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .dashboard-counters {
+    width: 70%;
+  }
+}
+
+.dashboard-counter-col {
+  height: 6rem;
+} */
+.dashboard-counter-col {
+  height: 7em;
+}
+@media (min-width: 1435px) {
+  .dashboard-counters_bootStrap_numbers {
+    flex: 0 0 16.666667%;
+    /* max-width: 16.666667%; */
+  }
+}
+
+.dashboard-counters_bootStrap_numbers {
+  text-align: center !important;
+  word-wrap: initial;
+}

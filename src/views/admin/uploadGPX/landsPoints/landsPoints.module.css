@@ -1,0 +1,29 @@
+.landsPointsCard {
+    padding: 10px 20px 0;
+}
+
+.buttonsContainer {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1;
+}
+
+.editPointButton {
+    width: fit-content;
+    margin-right: 4%;
+}
+
+.dataCol {
+    height: 70vh;
+    overflow: auto;
+    padding-bottom: 40px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.pointCell {
+    font-size: 0.95rem;
+    position: relative;
+}
+

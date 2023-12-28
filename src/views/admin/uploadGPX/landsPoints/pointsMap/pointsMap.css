@@ -1,0 +1,15 @@
+.pointsMapDiv button.gm-ui-hover-effect {
+    visibility: hidden;
+}
+
+.pointsMapDiv .gm-style-iw-c{
+    padding-top: 2px !important;
+    padding-right: 5px !important;
+}
+
+.pointsMapDiv .gm-style-iw-d{
+    width: fit-content !important;
+    overflow: auto !important;
+    padding-bottom: 2px !important;
+    padding-left: 5px !important;
+}

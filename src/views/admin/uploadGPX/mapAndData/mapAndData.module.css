@@ -1,0 +1,63 @@
+.mapAndDataCard {
+    max-height: 90vh;
+    overflow: hidden;
+    padding: 10px 20px 0;
+    margin-top: 60px;
+}
+
+.MapAndDataHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dataButtonsContainer {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.dataCol {
+    max-height: 75vh;
+    overflow: auto;
+    padding-bottom: 40px;
+    margin-bottom: 50px;
+}
+
+.requestDiv {
+    margin-bottom: 20px;
+    border: 1px solid gray;
+    padding: 15px;
+    border-radius: 20px;
+    cursor: pointer;
+
+    &:hover {
+        background-color: rgb(223, 223, 223);
+    }
+}
+
+.dataRow:hover {
+    background-color: rgb(223, 223, 223);
+}
+
+.codeDiv {
+    display: flex;
+    align-items: center;
+    gap: 20px
+}
+
+.code {
+    font-size: 1.2rem;
+    margin-bottom: 0;
+    width: 50%;
+    transition: 400ms;
+}
+
+.pointsDiv {
+    margin-inline: 10px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}

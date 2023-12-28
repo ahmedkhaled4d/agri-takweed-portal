@@ -1,0 +1,66 @@
+/* main css */
+.inputmap {
+  margin-top: 0.8em;
+  width: fit-content;
+  display: block;
+  padding: 1.2em 1.5em;
+  border-radius: 5%;
+  font-weight: 900;
+}
+
+#combinedMapSearchBtn {
+  margin-top: 0em !important;
+  background-color: blue !important;
+}
+
+#combinedMapSearchBtn:hover {
+  background-color: #d3d3d3 !important;
+  color: black !important;
+}
+
+.combinedMapError {
+  top: 4.2rem !important;
+  right: 4rem !important;
+  border: 1px solid red;
+  width: fit-content;
+  padding: 1em;
+  background-color: white;
+}
+
+.combinedMapForm {
+  top: 0.75rem !important;
+  right: 4rem !important;
+  width: 40%;
+  z-index: 1 !important;
+  /* display: inline-flex;
+  gap: 0.5em;
+  width: 50%;
+  flex-wrap: wrap; */
+}
+
+/* for loading purpuse only */
+.list_drop_btn {
+  border: 2px solid lightgray;
+  text-align: center;
+  width: calc(fit-content + 5px);
+  height: 40px;
+  padding: 0 5px;
+  cursor: pointer;
+  background-color: white;
+  transition: 0.3s;
+}
+.list_drop_btn:hover {
+  background-color: #cdcdcd;
+}
+
+.list_drop_btn:active {
+  background-color: #2f2f2f;
+  /* border: 1px solid white; */
+  color: white;
+}
+
+.list_drop_btn span {
+  font-size: 25px;
+  margin-right: -8px;
+  vertical-align: -5px;
+}

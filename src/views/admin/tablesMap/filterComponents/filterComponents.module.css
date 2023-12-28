@@ -1,0 +1,106 @@
+/* main css */
+.inputmap {
+  margin-top: 0.8em;
+  width: fit-content;
+  display: block;
+  padding: 1.2em 1.5em;
+  border-radius: 5%;
+  font-weight: 900;
+}
+
+#combinedMapSearchBtn {
+  margin-top: 0em !important;
+  background-color: blue !important;
+  font-size: 0.8rem;
+  border-radius: 75px;
+  margin-left: 0.5em;
+}
+
+#combinedMapSearchBtn:hover {
+  background-color: #d3d3d3 !important;
+  color: black !important;
+}
+
+.combinedMapError {
+  top: 4.2rem !important;
+  right: 4rem !important;
+  border: 1px solid red;
+  width: fit-content;
+  padding: 1em;
+  background-color: white;
+}
+
+.combinedMapForm {
+  top: 0.75rem !important;
+  right: 4rem !important;
+  width: 60%;
+  z-index: 1 !important;
+  /* display: inline-flex;
+  gap: 0.5em;
+  width: 50%;
+  flex-wrap: wrap; */
+}
+
+/* for loading purpuse only */
+.list_drop_btn {
+  border: 2px solid lightgray;
+  text-align: center;
+  height: 40px;
+  padding: 0 5px;
+  cursor: pointer;
+  background-color: white;
+  transition: 0.3s;
+}
+.list_drop_btn:hover {
+  background-color: #cdcdcd;
+}
+
+.list_drop_btn:active {
+  background-color: #2f2f2f;
+  /* border: 1px solid white; */
+  color: white;
+}
+
+.list_drop_btn span {
+  font-size: 25px;
+  margin-right: -8px;
+  vertical-align: -5px;
+}
+
+.btnControl {
+  width: 100px;
+  margin: 9px;
+  height: 36px;
+  border: 3px solid #000 !important;
+  background: #fff;
+  font-size: 15px;
+}
+
+.mapControlTable {
+  margin: 36px 10px 20px 10px;
+  background: #fff;
+  border: 2px solid #000 !important;
+  opacity: 0.1;
+  transition: opacity 0.3s ease-in-out;
+}
+.mapControlTable:hover {
+  opacity: 1;
+}
+
+.mapControlTable_tr {
+  height: 35px;
+  font-size: 19px;
+}
+.mapControlTable_td {
+  border: 1px solid #000 !important;
+  padding: 6px;
+}
+.min_w {
+  min-width: 120px;
+  max-width: 300px;
+}
+
+.searchBtnSpinner {
+  width: 1.1rem;
+  height: 1.1rem;
+}

@@ -1,0 +1,48 @@
+.coorinatesInputContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid lightgray;
+  background-color: white;
+  border-radius: 75px;
+  padding: 3px 7px 3px 3px;
+  margin-top: 0.75rem;
+}
+.coorinatesInput {
+  /* border: 2px solid lightgray !important; */
+  border: none !important;
+  border-bottom: 2px solid lightgray !important;
+  width: 5em;
+  /* border-radius: 35px; */
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  padding: 2px 5px !important;
+  font-size: 0.8rem;
+  height: 30px;
+  margin: 0 2px;
+  text-align: center;
+}
+.coorinatesInputError {
+  border-bottom: 2px solid red !important;
+}
+.coorinatesInput:focus,
+.coorinatesInput:active {
+  /* border: 2px solid lightgray !important; */
+  border: none !important;
+  border-bottom: 2px solid lightgray !important;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.coorinatesSubmitBtn,
+.coorinatesSubmitBtn:active,
+.coorinatesSubmitBtn:focus {
+  background-color: blue !important;
+  border-radius: 30px;
+  padding: 1em 1.2em !important;
+  margin: 0 5px 0 0 !important;
+}
+.coorinatesSubmitBtn:hover {
+  background-color: blue !important;
+
+  opacity: 0.8;
+}

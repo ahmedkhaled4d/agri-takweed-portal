@@ -1,0 +1,27 @@
+.tableForm {
+  border: none !important;
+  border-collapse: collapse;
+}
+.tableTd {
+  padding: 1em 0.5em;
+  border: none !important;
+  border-collapse: collapse;
+  text-align: right;
+}
+.inputField {
+  border: 1px green solid !important;
+  width: 90%;
+  padding: 6px 12px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+.selectContainer {
+  width: 90% !important;
+}
+.selectContainer input[type="text"]:focus {
+  border: none !important;
+}
+

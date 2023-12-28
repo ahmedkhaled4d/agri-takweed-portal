@@ -1,0 +1,51 @@
+.chart {
+  height: 600px;
+  margin: 5px;
+  width: 900px;
+}
+.Treant > .node > p {
+  color: #fff;
+  /* padding-bottom: 0.5em; */
+}
+/* .Treant > p {
+  font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue',
+  Helvetica, Arial, 'Lucida Grande', sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+} */
+.node-name {
+  font-weight: bold;
+  border-bottom: 1px solid #504f4f;
+  margin-bottom: 0.5em;
+  padding-bottom: 0.5em;
+}
+.requestNode > .node-name {
+  border-bottom: none;
+}
+.nodeExample1 {
+  padding: 1em;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  /* background-color: #ffffff; */
+  /* border: 1px solid #000; */
+  /* width: 200px; */
+  font-family: Tahoma;
+  font-size: 12px;
+  text-align: center;
+  background-color: #2c2c2c;
+}
+
+/* .tracelevel1 {
+  background-color: #c6ccd17a;
+}
+.tracelevel2 {
+  background-color: #636e572b;
+}
+.tracelevel3 {
+  background-color: #bfbfbb;
+} */
+
+.nodeExample1 img {
+  margin-right: 10px;
+}

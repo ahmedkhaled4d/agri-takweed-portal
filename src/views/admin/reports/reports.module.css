@@ -1,0 +1,15 @@
+.report_btn {
+  border: 1px solid black;
+  /* border: none; */
+  border-radius: 2px;
+  color: white;
+  background-color: #6bd098;
+  /* margin: auto; */
+}
+.closeIcon button {
+  margin: -1rem 15rem -2rem auto !important;
+}
+
+.formBtn {
+  background-color: #6bd098 !important;
+}

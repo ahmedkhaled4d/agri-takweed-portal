@@ -1,0 +1,155 @@
+.page {
+  /* background-color: red; */
+  max-width: none;
+  min-height: 100vh;
+  background-color: #b6bec64f;
+}
+
+.form {
+  padding: 1em 2em 3em 2em;
+}
+
+.uploadButtons {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  /* flex-direction: row; */
+  align-items: center;
+  /* border: 1px solid green; */
+  border-bottom: unset;
+  /* background-color: #cecece; */
+
+  gap: 2em;
+  flex-wrap: wrap;
+}
+.uploadButtons .btnStyles {
+  background-color: transparent !important;
+  color: green !important;
+  border: 2px solid green !important;
+  font-size: 1em;
+}
+.uploadButtons .btnStyles:hover {
+  background-color: green !important;
+  color: white !important;
+  border: 2px solid transparent !important;
+}
+
+.header {
+  text-align: center;
+  background-color: forestgreen;
+  padding: 0.5em;
+  color: white;
+  font-size: 1.8rem;
+  max-width: none !important;
+  /* width: 100%; */
+}
+
+.subHeader {
+  color: white;
+  margin: auto;
+  font-size: 1.2rem;
+  text-align: center;
+  background-color: #80b134e6;
+  padding: 0.5em;
+  border-radius: 10px;
+  width: 80%;
+  margin: 0 auto;
+  /* margin-bottom: 1.5em; */
+}
+
+.logo {
+  display: block;
+  margin: auto;
+  width: 14.5rem;
+  height: 7.5rem;
+  margin-top: -2.5rem;
+}
+
+/* .subHeaderWithLogo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.subHeaderWithLogo img {
+  width: 5rem;
+  height: 5rem;
+} */
+.eachFormWrapper {
+  border: 3px solid green;
+  padding: 1em;
+  border-radius: 15px;
+  position: relative;
+}
+.eachFormWrapper .formNum {
+  padding: 0.5em;
+  text-align: left;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 3px solid green;
+  border-top: 0;
+  border-left: 0;
+  border-bottom-right-radius: 15px;
+  color: green;
+  font-weight: bold;
+  font-size: large;
+}
+.input {
+  border: 1px solid green !important;
+}
+.eachFormWrapper .inputError {
+  border: 1px solid #ef8157 !important;
+}
+.eachFormWrapper .inputError:focus {
+  border: 1px solid #ef8157 !important;
+}
+
+.label {
+  margin-top: 1.3em;
+}
+
+.submitBtn {
+  font-size: 1rem;
+  display: block;
+  margin: auto;
+  background-color: forestgreen;
+  margin-top: 1em;
+}
+
+.addcropBtn {
+  background-color: #80b134e6;
+}
+.addcropBtn:hover {
+  background-color: forestgreen !important;
+}
+
+.line {
+  border-top: 1px solid #80b134e6;
+}
+
+.registrationSuccessPage {
+  /* box-sizing: border-box; */
+  /* min-height: 90vh; */
+  /* overflow: hidden;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+.successMsgContainer {
+  margin: auto;
+  background-color: #9da79dd9;
+  padding: 5em;
+  border-radius: 50px;
+  margin-top: 5rem;
+}
+
+.successMsg {
+  color: white;
+  font-size: 1.8rem;
+  text-align: center;
+  line-height: 1.35;
+}

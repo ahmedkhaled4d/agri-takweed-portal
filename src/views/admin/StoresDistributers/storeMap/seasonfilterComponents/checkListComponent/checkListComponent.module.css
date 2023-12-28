@@ -1,0 +1,142 @@
+.list_container {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.list_drop_btn {
+  border: 2px solid lightgray;
+  text-align: center;
+  height: 40px;
+  padding: 0 5px;
+  border-radius: 75px;
+  cursor: pointer;
+  background-color: white;
+  transition: 0.3s;
+  font-size: 0.8rem;
+  margin-left: 0.7em;
+}
+
+.list_drop_btn:hover {
+  background-color: #cdcdcd;
+}
+
+.list_drop_btn:active {
+  background-color: #2f2f2f;
+  /* border: 1px solid white; */
+  color: white;
+}
+
+.list_drop_btn span {
+  font-size: 25px;
+  margin-right: -8px;
+  vertical-align: -5px;
+}
+
+.boxes_container {
+  display: flex;
+  z-index: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #5b635e;
+  /* box-shadow: 5px 5px 5px 2px #636363; */
+  padding: 0.5em;
+  margin-top: 2px;
+  color: white;
+  width: 5.5em;
+  /* border-radius: 8px; */
+  transition: all 0.3s;
+  position: absolute;
+  top: 2.8rem;
+  left: 0.1em;
+  max-height: 16em;
+  overflow-y: scroll;
+  font-size: 1rem;
+}
+
+.boxes_container::before {
+  content: ' ';
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #2f2f2f;
+  font-size: 0;
+  line-height: 0;
+  margin-left: -5px;
+  width: 0;
+}
+
+.list_btns {
+  display: flex;
+  justify-content: center;
+}
+
+.list_btn {
+  border: none;
+  margin: 5px;
+  align-self: center;
+  transition: 0.3s;
+}
+
+.list_btn:hover {
+  background-color: #2faa2f;
+  color: white;
+}
+
+.list_btn:active {
+  background-color: white;
+  color: #2faa2f;
+}
+
+.list_boxes {
+  width: 100%;
+  display: flex;
+}
+
+.list_boxes label input {
+  margin-left: 0.35em;
+}
+
+.errors {
+  font-size: 16px;
+  color: red;
+  background: #f1eaea;
+  text-align: center;
+  position: absolute;
+  left: 45%;
+  border-radius: 5px;
+  padding: 0 0.3em;
+  z-index: -1;
+}
+.fetchError {
+  font-size: 23px;
+  color: red;
+}
+
+.selectallInput[type='checkbox'] {
+  display: none;
+}
+
+.deleteFormBtn {
+  border: none;
+  font-size: 0.8rem;
+  margin-bottom: 0.5em;
+  width: 100%;
+}
+
+.selectallLabel {
+  background: #6bd098;
+  color: white !important;
+  text-align: center;
+  width: 100%;
+  color: #000;
+  font-size: 17px;
+}
+.selectallLabel:hover {
+  background: #6bd098;
+  box-shadow: 0px 1px 12px 0px rgb(181 178 178 / 65%);
+}

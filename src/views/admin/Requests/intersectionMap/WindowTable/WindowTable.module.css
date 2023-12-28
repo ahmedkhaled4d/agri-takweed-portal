@@ -1,0 +1,24 @@
+.googleTable_table {
+  /* border: 3px solid black !important; */
+  border-collapse: collapse !important;
+  top: 220px !important;
+}
+
+.googleTable_td {
+  padding: 0.27em 0.5em;
+  border: 1px solid black !important;
+}
+
+/* .googleTable_td_title {
+   } */
+
+.googleTable_tr:hover {
+  background-color: #f39c12;
+  color: white;
+  /* font-weight: 500; */
+}
+
+.googleTable_tr {
+  border: 1px solid black !important;
+  font-size: 1rem;
+}

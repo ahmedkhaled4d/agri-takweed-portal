@@ -1,0 +1,59 @@
+.wrapper-class {
+  /* padding: 10rem; */
+  border: 1px solid blue;
+}
+.editor-class {
+  background-color: #fff;
+  /* border: 1px solid green; */
+  padding: 1em;
+}
+
+.toolbar-class a {
+  /* border: 1px solid red; */
+  direction: ltr;
+}
+
+/* img */
+.userImgContainer {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.8em;
+}
+.adminAddImgBtn {
+  width: fit-content;
+  background-color: #ef8157;
+  border: 0;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  margin-bottom: 0.55em;
+  cursor: pointer;
+}
+.adminAddImgBtn:hover {
+  background-color: #6bd098;
+  color: white;
+}
+
+.userImgInput {
+  margin-bottom: 0.5em;
+  display: none;
+}
+.userImg {
+  width: 15rem;
+  height: 15rem;
+}
+.adminAddImgContainer {
+}
+
+.adminAddImgDeleteBtn {
+  /* padding: 0.3em; */
+  border-radius: 50%;
+  border: none;
+  position: absolute;
+  background-color: red;
+  color: white;
+}
+
+/* checkbox in the richtext liberary */
+#openLinkInNewWindow {
+  margin-left: 0.5em;
+}
